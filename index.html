@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Living Niche LLC</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: 'Arial', sans-serif;
+      color: #ffffff;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      width: 100%;
+      height: 100vh;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1, h2, h3, p {
+      font-size: 1.8em;
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 2.4em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 900px;
+      line-height: 1.6;
+      font-size: 1.4em;
+    }
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+              url('https://images.unsplash.com/photo-1590103514226-48facf4657fe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  color: white;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-content {
+  width: 60%;
+  padding-right: 60px;
+}
+
+.text-right h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.text-right p {
+  font-size: 1.5em;
+  line-height: 1.7;
+}
+
+    .about, .services, .benefits, .process, .contact-form, .contact {
+      background-color: #111;
+    }
+
+    .about-content, .contact-content {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .about-content img {
+      max-width: 50%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .services-container, .benefits-container, .process-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 250px;
+      background-color: #222;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .contact-form p, .contact-form form {
+      margin: 20px 0;
+    }
+
+    .contact {
+      background-color: #000;
+      text-align: center;
+    }
+
+    .contact h2 {
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      font-size: 1.4em;
+    }
+
+    @media (max-width: 768px) {
+      .about-content {
+        flex-direction: column;
+      }
+
+      .about-content img {
+        max-width: 100%;
+      }
+
+      .services-container, .benefits-container, .process-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="text-right">
+      <h1>Smart Living Niche LLC</h1>
+      <p>Empowering your business with expert consulting in eCommerce, business strategy, and digital marketing. 
+We turn insights into results, helping brands scale with precision and purpose.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- 2. About Us -->
+  <section class="about">
+    <h2>Who We Are</h2>
+    <div class="about-content">
+      <div>
+        <p>At Smart Living Niche LLC, we specialize in helping modern businesses unlock their full potential. Whether you're launching an eCommerce store or restructuring your brand strategy, we bring sharp analysis, smart execution, and tailored consulting. With real-world experience and data-driven insights, our team delivers results that matter.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fE1hbmFnZW1lbnQlMjBjb25zdWx0aW5nJTIwc2VydmljZXMlMkMlMjBidXNpbmVzcyUyMGNvbnN1bHRpbmclMkMlMjBNYXJrZXRpbmclMjBjb25zdWx0aW5nfGVufDB8fDB8fHww" alt="Consulting image">
+    </div>
+  </section>
+
+  <!-- 3. Services -->
+  <section class="services">
+    <h2>What We Offer</h2>
+    <div class="services-container">
+      <div class="card">
+        <h3>Business Consulting</h3>
+        <p>We help you define and refine your business strategy, streamline operations, and identify growth opportunities with clarity and focus.</p>
+      </div>
+      <div class="card">
+        <h3>Ecommerce Consulting</h3>
+        <p>From platform selection to conversion optimization, we guide you through every step of building a profitable online store.</p>
+      </div>
+      <div class="card">
+        <h3>Marketing Strategy</h3>
+        <p>Maximize your brand's reach with performance-driven digital marketing strategies built for ROI and long-term engagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Why Choose Us -->
+  <section class="benefits">
+    <h2>Why Work With Us</h2>
+    <div class="benefits-container">
+      <div class="card">
+        <h3>Results-Oriented Approach</h3>
+        <p>We focus on practical, measurable outcomes, not just ideas. Your success is our metric.</p>
+      </div>
+      <div class="card">
+        <h3>Industry Experience</h3>
+        <p>Our consultants bring hands-on experience in various sectors, giving you an edge in today's competitive market.</p>
+      </div>
+      <div class="card">
+        <h3>Tailored Solutions</h3>
+        <p>No templates. No fluff. Just customized strategies that fit your unique goals and challenges.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Our Process -->
+  <section class="process">
+    <h2>How We Work</h2>
+    <div class="process-container">
+      <div class="card">
+        <h3>1. Discovery</h3>
+        <p>We begin with an in-depth consultation to understand your goals, pain points, and current position.</p>
+      </div>
+      <div class="card">
+        <h3>2. Strategy Development</h3>
+        <p>We craft a clear, actionable roadmap based on data, market analysis, and proven frameworks.</p>
+      </div>
+      <div class="card">
+        <h3>3. Execution & Support</h3>
+        <p>Our team works alongside yours to implement strategies, monitor progress, and refine for results.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Contact Form Section -->
+  <section class="contact-form">
+    <h2>Let's Talk</h2>
+    <p>We’d love to hear about your business goals. Share your vision, and we’ll show you how we can support it.</p>
+    <p>Fill out the form below and our team will get back to you within 24 hours.</p>
+    <!-- You can add form integration here -->
+  </section>
+
+  <!-- 7. Contact Info -->
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <p>We're ready when you are. Whether you have a quick question or need a full strategy session, let’s make it happen.</p>
+    <p>Email us at: <a href="mailto:welcome@smartlivingniche.org" style="color:#00ffff;">welcome@smartlivingniche.org</a></p>
+    <p>Address: 14841 Bowen St, Westminster, CA 92683, United States</p>
+  </section>
+
+</body>
+</html>
